@@ -1,8 +1,12 @@
+
+--- 
+<h1 align="center">📤  Devstage Api</h1>
+
 ![Cover](./.github/cover.png)
 
-# Devstage Api
-
-Um sistema de indicações que conecta desenvolvedores a comunidades e oportunidades em tecnologia.
+<p align="center">
+<b>Um sistema de indicações que conecta desenvolvedores a comunidades e oportunidades em tecnologia. 🚀</b>
+</p>
 
 ## Requisitos
 
