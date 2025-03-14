@@ -1,4 +1,4 @@
-POST http://localhost:3334/subscriptions
+POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
@@ -8,10 +8,10 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3334/invites/86b2c84c-5d9b-4262-bc23-609f4a507d5b
+GET http://localhost:3333/invites/86b2c84c-5d9b-4262-bc23-609f4a507d5b
 
 ###
-GET http://localhost:3334/subscribers/86b2c84c-5d9b-4262-bc23-609f4a507d5b/ranking/clicks
+GET http://localhost:3333/subscribers/86b2c84c-5d9b-4262-bc23-609f4a507d5b/ranking/clicks
 
 ###
-GET http://localhost:3334/subscribers/86b2c84c-5d9b-4262-bc23-609f4a507d5b/ranking/count
+GET http://localhost:3333/subscribers/86b2c84c-5d9b-4262-bc23-609f4a507d5b/ranking/count
