@@ -2,10 +2,16 @@ POST http://localhost:3334/subscriptions
 Content-Type: application/json
 
 {
-  "name": "John Doe",
-  "email": "john@doe.com.br"
+  "name": "Teste Brazuna",
+  "email": "teste@teste.com.br",
+  "referrer": "86b2c84c-5d9b-4262-bc23-609f4a507d5b"
 }
 
 ###
+GET http://localhost:3334/invites/86b2c84c-5d9b-4262-bc23-609f4a507d5b
 
-GET http://localhost:3334/invites/john123
+###
+GET http://localhost:3334/subscribers/86b2c84c-5d9b-4262-bc23-609f4a507d5b/ranking/clicks
+
+###
+GET http://localhost:3334/subscribers/86b2c84c-5d9b-4262-bc23-609f4a507d5b/ranking/count

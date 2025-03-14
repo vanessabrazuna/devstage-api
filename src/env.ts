@@ -5,7 +5,6 @@ const envSchema = z.object({
   POSTGRES_URL: z.string().url(),
   REDIS_URL: z.string().url(),
   WEB_URL: z.string().url(),
-  // NODE_ENV: z.enum(['dev', 'test', 'production']).default('dev'),
 })
 
 export const env = envSchema.parse(process.env)
