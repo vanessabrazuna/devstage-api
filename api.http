@@ -1,7 +1,11 @@
-POST http://localhost:3333/subscriptions
+POST http://localhost:3334/subscriptions
 Content-Type: application/json
 
 {
   "name": "John Doe",
   "email": "john@doe.com.br"
 }
+
+###
+
+GET http://localhost:3334/invites/john123

@@ -19,6 +19,10 @@
  - Fastify Swagger UI;
  - Fastify Type Provider Zod;
 - Zod;
+- Drizzle;
+- Drizzle Kit;
+- Postgres;
+- Ioredis;
 - Docker;
 - Biome;
 
