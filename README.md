@@ -31,6 +31,7 @@
 - Clonar o repositório;
 - Instalar dependências (`npm install`);
 - Configurar PostgreSQL e Redis (`docker compose up -d`);
+- Rodar as migrations (`npm drizzle-kit migrate`);
 - Copiar `.env.example` arquivo (`cp .env.example .env`);
 - Rodar aplicação (`npm run dev`);
 - Teste! (Eu pessoalmente recomendo testar com [Hoppscotch](https://hoppscotch.io/)).
