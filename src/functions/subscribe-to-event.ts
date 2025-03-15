@@ -29,7 +29,7 @@ export async function subscribeToEvent({
   }).returning()
 
   if (referrerId) {
-    await redis.zincrby('referral: ranking', 1, referrerId)
+    await redis.zincrby('referral:ranking', 1, referrerId)
   }
 
   const subscriber = result[0]
