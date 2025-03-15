@@ -1,0 +1,26 @@
+@host = localhost:3333
+
+### Subscribe to event
+POST http://{{host}}/subscriptions
+Content-Type: application/json
+
+{
+  "name": "Invited",
+  "email": "invited@gmail.team",
+  "referrer": "cf36c2fe-8b42-4d4c-924e-5d961c9e97e8"
+}
+
+### Access invite link
+GET http://{{host}}/invites/cf36c2fe-8b42-4d4c-924e-5d961c9e97e8
+
+### Get subscriber invites clicks
+GET http://{{host}}/subscribers/cf36c2fe-8b42-4d4c-924e-5d961c9e97e8/ranking/clicks
+
+### Get subscriber invites count
+GET http://{{host}}/subscribers/cf36c2fe-8b42-4d4c-924e-5d961c9e97e8/ranking/count
+
+### Get subscriber ranking position
+GET http://{{host}}/subscribers/cf36c2fe-8b42-4d4c-924e-5d961c9e97e8/ranking/position
+
+### Get ranking
+GET http://{{host}}/ranking
